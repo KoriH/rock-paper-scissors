@@ -33,12 +33,12 @@ window.onload = function() {
     }
 
     cpuBox.style.color = "black";
-    cpuBox.style.fontSize = "20px";
     cpuBox.style.margin = "0px";
+    cpuBox.style.fontSize = "30px";
 
     playerBox.style.color = "black";
-    playerBox.style.color = "20px";
     playerBox.style.color = "0px";
+    playerBox.style.fontSize = "30px";
     
     document.getElementById("player-score-box").append(playerBox);
     document.getElementById("cpu-score-box").append(cpuBox);

@@ -31,7 +31,8 @@
 }
 
 #cpu-score-box {
-    justify-content: flex-start;
+    display: flex;
+    justify-content: center;
     align-items: center;
     background-color: rgb(210, 211, 211);
     border-color: 5px solid rgb(160, 160, 160);
@@ -44,7 +45,8 @@
 }
 
 #player-score-box {
-    justify-content: flex-start;
+    display: flex;
+    justify-content: center;
     align-items: center;
     background-color: rgb(210, 211, 211);
     border-color: 5px solid rgb(160, 160, 160);
