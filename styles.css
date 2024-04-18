@@ -1,0 +1,123 @@
+.header {
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+}
+
+.title {
+    color: rgb(227, 227, 227);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.score {
+    display: flex;
+
+}
+
+.cpu-score {
+    height: 100px;
+    width: 100px;
+    border-radius: 6px;
+    margin-right: 500px;
+    text-align: center;
+}
+
+.player-score {
+    height: 100px;
+    width: 100px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+#cpu-score-box {
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(210, 211, 211);
+    border-color: 5px solid rgb(160, 160, 160);
+    border-radius: 6px;
+    height: 50px;
+    width: 100px;
+    font-size: 100px;
+    margin-bottom: 50px;
+    margin-top: -9px;
+}
+
+#player-score-box {
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(210, 211, 211);
+    border-color: 5px solid rgb(160, 160, 160);
+    border-radius: 6px;
+    height: 50px;
+    width: 100px;
+    font-size: 100px;
+    margin-bottom: 50px;
+    margin-top: -9px;
+    text-align: center;
+}
+
+.choice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cpu,
+#player {
+    border-color: 5px solid rgb(160, 160, 160);
+    border-radius: 6px;
+    width: 170px;
+    height: 170px;
+    background-color: rgb(218, 213, 213);
+}
+
+#player {
+    margin-bottom: 0;
+}
+
+#option {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-color: 5px solid rgb(160, 160, 160);
+    border-radius: 6px;
+    height: 150px;
+    width: 150px;
+    font-size: 100px;
+    margin-bottom: 50px;
+}
+
+.footer {
+    background-color: #191960;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+p {
+    color: rgb(204, 204, 204);
+    font-size: large;
+}
+
+body {
+    border: 0px;
+    margin: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(57,9,121,1) 32%);
+}
+
+img {
+    height: 180px;
+    width: 180px;
+    margin: 10px;
+}
